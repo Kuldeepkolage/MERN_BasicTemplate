@@ -8,6 +8,9 @@ const recordSchema = new mongoose.Schema({
   address: String,
   quantity: Number,
   dateOfBirth: String,
+  productName: String,
+  productPrice: String,
+  productImage: String,
 });
 
 export default mongoose.model("Record", recordSchema);

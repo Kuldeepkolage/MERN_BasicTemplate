@@ -18,7 +18,7 @@ export default function FormPage() {
         className="bg-white shadow-lg rounded-lg p-6 w-96"
       >
         <h2 className="text-xl font-semibold mb-4 text-center text-blue-600">
-          Add Details
+          List Your Product
         </h2>
         <input
           className="border p-2 w-full mb-3"

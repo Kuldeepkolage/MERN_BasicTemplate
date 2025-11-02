@@ -17,18 +17,18 @@ export default function DisplayPage(){
             <DonorCard />
             </div>
             <div className="flex justify-center items-center"><FlowerCard /></div>
-            
+
             <div className="flex justify-center items-center"><BookCard /></div>
-            
+
             <div className="flex justify-center items-center"><ProductCard /></div>
-            
+
             <div className="flex justify-center items-center"><ResumePreview /></div>
-            
+
             <div className="flex justify-center items-center"><StudentCard /></div>
-            
+
             <div className="flex justify-center items-center"><TrainSearch /></div>
-            
-            
+
+
         </div>
     );
 }

@@ -18,20 +18,20 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex justify-between items-center bg-blue-600 text-white px-6 py-3 shadow-md">
+    <nav className="flex justify-between bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 shadow-md">
       <h1 className="text-xl font-semibold cursor-pointer" onClick={() => navigate("/")}>
-        My MERN App
+        TechHub E-Commerce
       </h1>
 
       <div className="flex gap-4">
         <Link to="/" className="hover:underline">
-          Home
+          Shop
         </Link>
         <Link to="/form" className="hover:underline">
           Form
         </Link>
         <Link to="/records" className="hover:underline">Records</Link>
-        <Link to="/displaypage" className="hover:underline">Display</Link>
+        <Link to="/displaypage" className="hover:underline">  Catalog</Link>
         {/* copy the above tag <Link to="/varun" className="hover:underline">Varun</Link> */}
 
         {isLoggedIn ? (
